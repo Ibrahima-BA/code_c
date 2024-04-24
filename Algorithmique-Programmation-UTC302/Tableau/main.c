@@ -6,15 +6,13 @@
 //
 
 #include <stdio.h>
-//#include <stdlib.h>
-//#include <math.h>
 
 int main (void)
 {
-  int Tab[] = { 4, 5, 7, 2, 3 };
+  int Tab[] = { 4, 5, 7, 6, 3,2 };
   int c;
 
-  for (c = 0; c < 5; c++)
+  for (c = 0; c < 6; c++)
     
     printf ("%d\n", Tab[c]);
 c = 0 ;
@@ -25,3 +23,4 @@ c = 0 ;
 printf ("Fin du programme\n");
 return 0;
 }
+

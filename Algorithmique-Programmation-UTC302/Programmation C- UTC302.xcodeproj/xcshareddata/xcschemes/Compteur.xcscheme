@@ -18,7 +18,7 @@
                BlueprintIdentifier = "0E6A7EEB2BD652BF00E742D5"
                BuildableName = "Tableau"
                BlueprintName = "Tableau"
-               ReferencedContainer = "container:Hello Word.xcodeproj">
+               ReferencedContainer = "container:Programmation C- UTC302.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -48,7 +48,7 @@
             BlueprintIdentifier = "0E6A7EEB2BD652BF00E742D5"
             BuildableName = "Tableau"
             BlueprintName = "Tableau"
-            ReferencedContainer = "container:Hello Word.xcodeproj">
+            ReferencedContainer = "container:Programmation C- UTC302.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -65,7 +65,7 @@
             BlueprintIdentifier = "0E6A7EEB2BD652BF00E742D5"
             BuildableName = "Tableau"
             BlueprintName = "Tableau"
-            ReferencedContainer = "container:Hello Word.xcodeproj">
+            ReferencedContainer = "container:Programmation C- UTC302.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

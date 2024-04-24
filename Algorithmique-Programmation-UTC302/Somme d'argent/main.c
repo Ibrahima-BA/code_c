@@ -6,7 +6,6 @@
 //
 
 #include <stdio.h>
-
 int main(void)
 {
 int nb500, /* correspond à la constante du nombres de billets de 500 */

@@ -11,13 +11,12 @@
 float a;
 float b;
 
-
 int main(void)
 {
     printf("Veuillez saisir un prix :\n");
     scanf("%f", &a);
     b=a+(a*0.2);
-    printf("Le prix calculé avec la TVA à 20 pour cents : %f euros  \n",b);
+    printf("Le prix calculé avec la TVA à 20 pour cents : %.2f euros  \n",b);
     
     return 0;
 }

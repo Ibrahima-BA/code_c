@@ -11,8 +11,8 @@ int main (void)
 {
     char str[11];
     
-    printf("saisir une chaine de 10 caracteres max\n");
+    printf("saisir une chaine de 10 caracteres max : \n");
     scanf("%s", str);
-
+    printf("Votre chaine de caractére est la suivante : %s \n",str);
     return 0;
 }

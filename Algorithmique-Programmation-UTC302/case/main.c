@@ -33,9 +33,24 @@ int main (void)
     case 5:
       printf (" Cinq\n ");
       break;
+     case 6:
+       printf (" Six\n ");
+      break;
+     case 7:
+      printf (" Sept\n ");
+      break;
+     case 8:
+      printf (" Huit\n ");
+      break;
+    case 9:
+     printf (" Neuf\n ");
+    break;
+    case 10:
+     printf (" Dix\n");
+    break;
     default:
-            printf ("\n");
-      printf (" Trop grand\n");
+    printf ("\n");
+    printf (" Trop grand\n");
     }
   printf ("Fin du programme\n ");
 }
