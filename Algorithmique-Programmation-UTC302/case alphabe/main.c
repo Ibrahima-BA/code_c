@@ -5,6 +5,7 @@
 //  Created by Ibrahima Ba on 22/04/2024.
 //
 #include <stdio.h>
+#include <ctype.h> // librairie pour toupper
 
 int main (void)
 {
@@ -12,10 +13,10 @@ int main (void)
     
   printf ("Veuillez saisir un lettre :\n");
   scanf (" %c", &n);
-
+    n = toupper(n); // pour mettre les minuscules à majuscules (sinon utliser tolower)
   switch (n)
     {
-    case 'a' & 'A':
+    case 'a':
       printf ("1ére lettre de l'alphabet\n ");
      break;
     case 'b' & 'B':
