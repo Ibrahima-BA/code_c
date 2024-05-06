@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E01A8F92BE009D200D28879 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E01A8F82BE009D200D28879 /* main.c */; };
+		0E01A9042BE00D4E00D28879 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E01A9032BE00D4E00D28879 /* main.c */; };
+		0E01A90F2BE01C6A00D28879 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E01A90E2BE01C6A00D28879 /* main.c */; };
+		0E1305962BE9730B006FA249 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1305952BE9730B006FA249 /* main.c */; };
 		0E144EE32BD6A98400328C46 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E144EE22BD6A98400328C46 /* main.c */; };
 		0E144EEE2BD6B45F00328C46 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E144EED2BD6B45F00328C46 /* main.c */; };
 		0E144EF92BD6B53100328C46 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E144EF82BD6B53100328C46 /* main.c */; };
@@ -33,17 +37,45 @@
 		0E8587662BD673B1007AAC43 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E8587652BD673B1007AAC43 /* main.c */; };
 		0E85876A2BD674D4007AAC43 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EE92A902BD651F400587CD9 /* main.c */; };
 		0E8587722BD67513007AAC43 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E8587712BD67513007AAC43 /* main.c */; };
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513AC02BE66B1A00CB5C6B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10513ABF2BE66B1A00CB5C6B /* main.c */; };
-		10E743BA2BDACDFB00AC6A89 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10E743B92BDACDFB00AC6A89 /* main.c */; };
-		10E743E22BDAD41F00AC6A89 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10E743E12BDAD41F00AC6A89 /* main.c */; };
-		10E7440B2BDAE56200AC6A89 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10E7440A2BDAE56200AC6A89 /* main.c */; };
-=======
-		10B4BF052BD81D8A00E4236E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10B4BF042BD81D8A00E4236E /* main.c */; };
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0E01A8F42BE009D200D28879 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E01A8FF2BE00D4E00D28879 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E01A90A2BE01C6A00D28879 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1305912BE9730B006FA249 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0E144EDE2BD6A98400328C46 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,49 +328,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513ABB2BE66B1900CB5C6B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		10E743B52BDACDFB00AC6A89 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		10E743DD2BDAD41F00AC6A89 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		10E744062BDAE56200AC6A89 /* CopyFiles */ = {
-=======
-		10B4BF002BD81D8A00E4236E /* CopyFiles */ = {
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E01A8F62BE009D200D28879 /* Structure exercice 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Structure exercice 3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E01A8F82BE009D200D28879 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E01A9012BE00D4E00D28879 /* pointeur-suite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pointeur-suite"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E01A9032BE00D4E00D28879 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E01A90C2BE01C6A00D28879 /* pointeur-suite2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pointeur-suite2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E01A90E2BE01C6A00D28879 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1305932BE9730B006FA249 /* Structure exercice 4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Structure exercice 4"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1305952BE9730B006FA249 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0E144EE02BD6A98400328C46 /* case alphabe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "case alphabe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E144EE22BD6A98400328C46 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0E144EEB2BD6B45F00328C46 /* TVA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TVA; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -393,22 +393,37 @@
 		0E8587712BD67513007AAC43 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0EE92A8D2BD651F400587CD9 /* Programmation C- UTC302 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Programmation C- UTC302"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE92A902BD651F400587CD9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513ABD2BE66B1900CB5C6B /* Essai Thierry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Essai Thierry"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10513ABF2BE66B1A00CB5C6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		10E743B72BDACDFB00AC6A89 /* Liste chainé */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Liste chainé"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E743B92BDACDFB00AC6A89 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = "../Liste chainé/main.c"; sourceTree = "<group>"; };
-		10E743DF2BDAD41F00AC6A89 /* Liste chainé 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Liste chainé 2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E743E12BDAD41F00AC6A89 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = "../Liste chainé 2/main.c"; sourceTree = "<group>"; };
-		10E744082BDAE56200AC6A89 /* Liste chainé 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Liste chainé 3"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10E7440A2BDAE56200AC6A89 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = main.c; path = "../Liste chainé 3/main.c"; sourceTree = "<group>"; };
-=======
-		10B4BF022BD81D8A00E4236E /* HelloWord-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HelloWord-test"; sourceTree = BUILT_PRODUCTS_DIR; };
-		10B4BF042BD81D8A00E4236E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0E01A8F32BE009D200D28879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E01A8FE2BE00D4E00D28879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E01A9092BE01C6A00D28879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1305902BE9730B006FA249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E144EDD2BD6A98400328C46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -605,41 +620,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513ABA2BE66B1900CB5C6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10E743B42BDACDFB00AC6A89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10E743DC2BDAD41F00AC6A89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10E744052BDAE56200AC6A89 /* Frameworks */ = {
-=======
-		10B4BEFF2BD81D8A00E4236E /* Frameworks */ = {
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E01A8F72BE009D200D28879 /* Structure exercice 3 */ = {
+			isa = PBXGroup;
+			children = (
+				0E01A8F82BE009D200D28879 /* main.c */,
+			);
+			path = "Structure exercice 3";
+			sourceTree = "<group>";
+		};
+		0E01A9022BE00D4E00D28879 /* pointeur-suite */ = {
+			isa = PBXGroup;
+			children = (
+				0E01A9032BE00D4E00D28879 /* main.c */,
+			);
+			path = "pointeur-suite";
+			sourceTree = "<group>";
+		};
+		0E01A90D2BE01C6A00D28879 /* pointeur-suite2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E01A90E2BE01C6A00D28879 /* main.c */,
+			);
+			path = "pointeur-suite2";
+			sourceTree = "<group>";
+		};
+		0E1305942BE9730B006FA249 /* Structure exercice 4 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1305952BE9730B006FA249 /* main.c */,
+			);
+			path = "Structure exercice 4";
+			sourceTree = "<group>";
+		};
 		0E144EE12BD6A98400328C46 /* case alphabe */ = {
 			isa = PBXGroup;
 			children = (
@@ -844,7 +859,6 @@
 			isa = PBXGroup;
 			children = (
 				0EE92A8F2BD651F400587CD9 /* Hello Word */,
-				10B4BF032BD81D8A00E4236E /* HelloWord-test */,
 				0E6A7EED2BD652BF00E742D5 /* Tableau */,
 				0E6A7F032BD65A1600E742D5 /* case */,
 				0E144EE12BD6A98400328C46 /* case alphabe */,
@@ -870,10 +884,10 @@
 				0E144F2E2BD6D73400328C46 /* Structure Exemple 3 */,
 				0E144F4F2BD6E54700328C46 /* structure exercice */,
 				0E3725D42BD954F100063E0D /* structure exercice 2 */,
-				10E743B82BDACDFB00AC6A89 /* Liste chainé */,
-				10E743E02BDAD41F00AC6A89 /* Liste chainé 2 */,
-				10E744092BDAE56200AC6A89 /* Liste chainé 3 */,
-				10513ABE2BE66B1A00CB5C6B /* Essai Thierry */,
+				0E01A8F72BE009D200D28879 /* Structure exercice 3 */,
+				0E01A9022BE00D4E00D28879 /* pointeur-suite */,
+				0E01A90D2BE01C6A00D28879 /* pointeur-suite2 */,
+				0E1305942BE9730B006FA249 /* Structure exercice 4 */,
 				0EE92A8E2BD651F400587CD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -897,7 +911,6 @@
 				0E8587582BD67286007AAC43 /* multiplication-math-fonction */,
 				0E8587632BD673B1007AAC43 /* pointeur-2 */,
 				0E85876F2BD67513007AAC43 /* Somme d'argent */,
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				0E144EE02BD6A98400328C46 /* case alphabe */,
 				0E144EEB2BD6B45F00328C46 /* TVA */,
 				0E144EF62BD6B53100328C46 /* chaine de caractere inverse */,
@@ -910,13 +923,10 @@
 				0E144F432BD6DA2B00328C46 /* c_for */,
 				0E144F4E2BD6E54700328C46 /* structure exercice */,
 				0E3725D32BD954F100063E0D /* structure exercice 2 */,
-				10E743B72BDACDFB00AC6A89 /* Liste chainé */,
-				10E743DF2BDAD41F00AC6A89 /* Liste chainé 2 */,
-				10E744082BDAE56200AC6A89 /* Liste chainé 3 */,
-				10513ABD2BE66B1900CB5C6B /* Essai Thierry */,
-=======
-				10B4BF022BD81D8A00E4236E /* HelloWord-test */,
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
+				0E01A8F62BE009D200D28879 /* Structure exercice 3 */,
+				0E01A9012BE00D4E00D28879 /* pointeur-suite */,
+				0E01A90C2BE01C6A00D28879 /* pointeur-suite2 */,
+				0E1305932BE9730B006FA249 /* Structure exercice 4 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -929,50 +939,77 @@
 			path = "Hello Word";
 			sourceTree = "<group>";
 		};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513ABE2BE66B1A00CB5C6B /* Essai Thierry */ = {
-			isa = PBXGroup;
-			children = (
-				10513ABF2BE66B1A00CB5C6B /* main.c */,
-			);
-			path = "Essai Thierry";
-			sourceTree = "<group>";
-		};
-		10E743B82BDACDFB00AC6A89 /* Liste chainé */ = {
-			isa = PBXGroup;
-			children = (
-				10E743B92BDACDFB00AC6A89 /* main.c */,
-			);
-			path = "Liste chainé";
-			sourceTree = "<group>";
-		};
-		10E743E02BDAD41F00AC6A89 /* Liste chainé 2 */ = {
-			isa = PBXGroup;
-			children = (
-				10E743E12BDAD41F00AC6A89 /* main.c */,
-			);
-			path = "Liste chainé 2";
-			sourceTree = "<group>";
-		};
-		10E744092BDAE56200AC6A89 /* Liste chainé 3 */ = {
-			isa = PBXGroup;
-			children = (
-				10E7440A2BDAE56200AC6A89 /* main.c */,
-			);
-			path = "Liste chainé 3";
-=======
-		10B4BF032BD81D8A00E4236E /* HelloWord-test */ = {
-			isa = PBXGroup;
-			children = (
-				10B4BF042BD81D8A00E4236E /* main.c */,
-			);
-			path = "HelloWord-test";
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0E01A8F52BE009D200D28879 /* Structure exercice 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E01A8FC2BE009D200D28879 /* Build configuration list for PBXNativeTarget "Structure exercice 3" */;
+			buildPhases = (
+				0E01A8F22BE009D200D28879 /* Sources */,
+				0E01A8F32BE009D200D28879 /* Frameworks */,
+				0E01A8F42BE009D200D28879 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Structure exercice 3";
+			productName = "Structure exercice 3";
+			productReference = 0E01A8F62BE009D200D28879 /* Structure exercice 3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E01A9002BE00D4E00D28879 /* pointeur-suite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E01A9052BE00D4E00D28879 /* Build configuration list for PBXNativeTarget "pointeur-suite" */;
+			buildPhases = (
+				0E01A8FD2BE00D4E00D28879 /* Sources */,
+				0E01A8FE2BE00D4E00D28879 /* Frameworks */,
+				0E01A8FF2BE00D4E00D28879 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pointeur-suite";
+			productName = "pointeur-suite";
+			productReference = 0E01A9012BE00D4E00D28879 /* pointeur-suite */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E01A90B2BE01C6A00D28879 /* pointeur-suite2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E01A9102BE01C6A00D28879 /* Build configuration list for PBXNativeTarget "pointeur-suite2" */;
+			buildPhases = (
+				0E01A9082BE01C6A00D28879 /* Sources */,
+				0E01A9092BE01C6A00D28879 /* Frameworks */,
+				0E01A90A2BE01C6A00D28879 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pointeur-suite2";
+			productName = "pointeur-suite2";
+			productReference = 0E01A90C2BE01C6A00D28879 /* pointeur-suite2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1305922BE9730B006FA249 /* Structure exercice 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1305992BE9730B006FA249 /* Build configuration list for PBXNativeTarget "Structure exercice 4" */;
+			buildPhases = (
+				0E13058F2BE9730B006FA249 /* Sources */,
+				0E1305902BE9730B006FA249 /* Frameworks */,
+				0E1305912BE9730B006FA249 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Structure exercice 4";
+			productName = "Structure exercice 4";
+			productReference = 0E1305932BE9730B006FA249 /* Structure exercice 4 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0E144EDF2BD6A98400328C46 /* case alphabe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E144EE42BD6A98400328C46 /* Build configuration list for PBXNativeTarget "case alphabe" */;
@@ -1449,91 +1486,6 @@
 			productReference = 0EE92A8D2BD651F400587CD9 /* Programmation C- UTC302 */;
 			productType = "com.apple.product-type.tool";
 		};
-		10513ABC2BE66B1900CB5C6B /* Essai Thierry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10513AC32BE66B1A00CB5C6B /* Build configuration list for PBXNativeTarget "Essai Thierry" */;
-			buildPhases = (
-				10513AB92BE66B1900CB5C6B /* Sources */,
-				10513ABA2BE66B1900CB5C6B /* Frameworks */,
-				10513ABB2BE66B1900CB5C6B /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Essai Thierry";
-			productName = "Essai Thierry";
-			productReference = 10513ABD2BE66B1900CB5C6B /* Essai Thierry */;
-			productType = "com.apple.product-type.tool";
-		};
-		10E743B62BDACDFB00AC6A89 /* Liste chainé */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10E743BD2BDACDFB00AC6A89 /* Build configuration list for PBXNativeTarget "Liste chainé" */;
-			buildPhases = (
-				10E743B32BDACDFB00AC6A89 /* Sources */,
-				10E743B42BDACDFB00AC6A89 /* Frameworks */,
-				10E743B52BDACDFB00AC6A89 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Liste chainé";
-			productName = "Liste chainé";
-			productReference = 10E743B72BDACDFB00AC6A89 /* Liste chainé */;
-			productType = "com.apple.product-type.tool";
-		};
-		10E743DE2BDAD41F00AC6A89 /* Liste chainé 2 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10E743E32BDAD41F00AC6A89 /* Build configuration list for PBXNativeTarget "Liste chainé 2" */;
-			buildPhases = (
-				10E743DB2BDAD41F00AC6A89 /* Sources */,
-				10E743DC2BDAD41F00AC6A89 /* Frameworks */,
-				10E743DD2BDAD41F00AC6A89 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Liste chainé 2";
-			productName = "Liste chainé 2";
-			productReference = 10E743DF2BDAD41F00AC6A89 /* Liste chainé 2 */;
-			productType = "com.apple.product-type.tool";
-		};
-		10E744072BDAE56200AC6A89 /* Liste chainé 3 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10E7440C2BDAE56200AC6A89 /* Build configuration list for PBXNativeTarget "Liste chainé 3" */;
-			buildPhases = (
-				10E744042BDAE56200AC6A89 /* Sources */,
-				10E744052BDAE56200AC6A89 /* Frameworks */,
-				10E744062BDAE56200AC6A89 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Liste chainé 3";
-			productName = "Liste chainé 3";
-			productReference = 10E744082BDAE56200AC6A89 /* Liste chainé 3 */;
-			productType = "com.apple.product-type.tool";
-		};
-		10B4BF012BD81D8A00E4236E /* HelloWord-test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 10B4BF082BD81D8A00E4236E /* Build configuration list for PBXNativeTarget "HelloWord-test" */;
-			buildPhases = (
-				10B4BEFE2BD81D8A00E4236E /* Sources */,
-				10B4BEFF2BD81D8A00E4236E /* Frameworks */,
-				10B4BF002BD81D8A00E4236E /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "HelloWord-test";
-			productName = "HelloWord-test";
-			productReference = 10B4BF022BD81D8A00E4236E /* HelloWord-test */;
-			productType = "com.apple.product-type.tool";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1543,6 +1495,18 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					0E01A8F52BE009D200D28879 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0E01A9002BE00D4E00D28879 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0E01A90B2BE01C6A00D28879 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0E1305922BE9730B006FA249 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					0E144EDF2BD6A98400328C46 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -1627,22 +1591,6 @@
 					0EE92A8C2BD651F400587CD9 = {
 						CreatedOnToolsVersion = 15.3;
 					};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-					10513ABC2BE66B1900CB5C6B = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					10E743B62BDACDFB00AC6A89 = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					10E743DE2BDAD41F00AC6A89 = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					10E744072BDAE56200AC6A89 = {
-=======
-					10B4BF012BD81D8A00E4236E = {
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-						CreatedOnToolsVersion = 12.4;
-					};
 				};
 			};
 			buildConfigurationList = 0EE92A882BD651F400587CD9 /* Build configuration list for PBXProject "Programmation C- UTC302" */;
@@ -1674,7 +1622,6 @@
 				0E8587572BD67286007AAC43 /* multiplication-math-fonction */,
 				0E8587622BD673B1007AAC43 /* pointeur-2 */,
 				0E85876E2BD67513007AAC43 /* Somme d'argent */,
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				0E144EDF2BD6A98400328C46 /* case alphabe */,
 				0E144EEA2BD6B45F00328C46 /* TVA */,
 				0E144EF52BD6B53100328C46 /* chaine de caractere inverse */,
@@ -1687,18 +1634,47 @@
 				0E144F422BD6DA2B00328C46 /* c_for */,
 				0E144F4D2BD6E54700328C46 /* structure exercice */,
 				0E3725D22BD954F100063E0D /* structure exercice 2 */,
-				10E743B62BDACDFB00AC6A89 /* Liste chainé */,
-				10E743DE2BDAD41F00AC6A89 /* Liste chainé 2 */,
-				10E744072BDAE56200AC6A89 /* Liste chainé 3 */,
-				10513ABC2BE66B1900CB5C6B /* Essai Thierry */,
-=======
-				10B4BF012BD81D8A00E4236E /* HelloWord-test */,
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
+				0E01A8F52BE009D200D28879 /* Structure exercice 3 */,
+				0E01A9002BE00D4E00D28879 /* pointeur-suite */,
+				0E01A90B2BE01C6A00D28879 /* pointeur-suite2 */,
+				0E1305922BE9730B006FA249 /* Structure exercice 4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0E01A8F22BE009D200D28879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E01A8F92BE009D200D28879 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E01A8FD2BE00D4E00D28879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E01A9042BE00D4E00D28879 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E01A9082BE01C6A00D28879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E01A90F2BE01C6A00D28879 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E13058F2BE9730B006FA249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1305962BE9730B006FA249 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E144EDC2BD6A98400328C46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1921,49 +1897,97 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513AB92BE66B1900CB5C6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10513AC02BE66B1A00CB5C6B /* main.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10E743B32BDACDFB00AC6A89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10E743BA2BDACDFB00AC6A89 /* main.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10E743DB2BDAD41F00AC6A89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10E743E22BDAD41F00AC6A89 /* main.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		10E744042BDAE56200AC6A89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10E7440B2BDAE56200AC6A89 /* main.c in Sources */,
-=======
-		10B4BEFE2BD81D8A00E4236E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10B4BF052BD81D8A00E4236E /* main.c in Sources */,
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0E01A8FA2BE009D200D28879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E01A8FB2BE009D200D28879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E01A9062BE00D4E00D28879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E01A9072BE00D4E00D28879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E01A9112BE01C6A00D28879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E01A9122BE01C6A00D28879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1305972BE9730B006FA249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1305982BE9730B006FA249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZG65SRV9X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0E144EE52BD6A98400328C46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2212,11 +2236,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2227,7 +2247,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2251,9 +2270,6 @@
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2264,11 +2280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2279,11 +2291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2294,11 +2302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2309,11 +2313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2324,11 +2324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2339,11 +2335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2354,11 +2346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2369,11 +2357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2384,11 +2368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2399,11 +2379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2414,11 +2390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2429,11 +2401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2444,11 +2412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2459,11 +2423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2474,11 +2434,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2489,11 +2445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2504,11 +2456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2519,11 +2467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2534,11 +2478,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2549,11 +2489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2564,11 +2500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2579,11 +2511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2594,11 +2522,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2609,11 +2533,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2624,11 +2544,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2639,11 +2555,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2654,11 +2566,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2669,11 +2577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZG65SRV9X;
 				ENABLE_HARDENED_RUNTIME = YES;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2797,11 +2701,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2810,131 +2710,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513AC12BE66B1A00CB5C6B /* Debug */ = {
-=======
-		10B4BF062BD81D8A00E4236E /* Debug */ = {
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513AC22BE66B1A00CB5C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		10E743BB2BDACDFB00AC6A89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		10E743BC2BDACDFB00AC6A89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		10E743E42BDAD41F00AC6A89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		10E743E52BDAD41F00AC6A89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		10E7440D2BDAE56200AC6A89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		10E7440E2BDAE56200AC6A89 /* Release */ = {
-=======
-		10B4BF072BD81D8A00E4236E /* Release */ = {
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ZG65SRV9X;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-=======
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2942,6 +2718,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E01A8FC2BE009D200D28879 /* Build configuration list for PBXNativeTarget "Structure exercice 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E01A8FA2BE009D200D28879 /* Debug */,
+				0E01A8FB2BE009D200D28879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E01A9052BE00D4E00D28879 /* Build configuration list for PBXNativeTarget "pointeur-suite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E01A9062BE00D4E00D28879 /* Debug */,
+				0E01A9072BE00D4E00D28879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E01A9102BE01C6A00D28879 /* Build configuration list for PBXNativeTarget "pointeur-suite2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E01A9112BE01C6A00D28879 /* Debug */,
+				0E01A9122BE01C6A00D28879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1305992BE9730B006FA249 /* Build configuration list for PBXNativeTarget "Structure exercice 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1305972BE9730B006FA249 /* Debug */,
+				0E1305982BE9730B006FA249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0E144EE42BD6A98400328C46 /* Build configuration list for PBXNativeTarget "case alphabe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3199,50 +3011,6 @@
 			buildConfigurations = (
 				0EE92A952BD651F400587CD9 /* Debug */,
 				0EE92A962BD651F400587CD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-<<<<<<< Updated upstream:Algorithmique-Programmation-UTC302/Programmation C- UTC302.xcodeproj/project.pbxproj
-		10513AC32BE66B1A00CB5C6B /* Build configuration list for PBXNativeTarget "Essai Thierry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10513AC12BE66B1A00CB5C6B /* Debug */,
-				10513AC22BE66B1A00CB5C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		10E743BD2BDACDFB00AC6A89 /* Build configuration list for PBXNativeTarget "Liste chainé" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10E743BB2BDACDFB00AC6A89 /* Debug */,
-				10E743BC2BDACDFB00AC6A89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		10E743E32BDAD41F00AC6A89 /* Build configuration list for PBXNativeTarget "Liste chainé 2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10E743E42BDAD41F00AC6A89 /* Debug */,
-				10E743E52BDAD41F00AC6A89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		10E7440C2BDAE56200AC6A89 /* Build configuration list for PBXNativeTarget "Liste chainé 3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10E7440D2BDAE56200AC6A89 /* Debug */,
-				10E7440E2BDAE56200AC6A89 /* Release */,
-=======
-		10B4BF082BD81D8A00E4236E /* Build configuration list for PBXNativeTarget "HelloWord-test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10B4BF062BD81D8A00E4236E /* Debug */,
-				10B4BF072BD81D8A00E4236E /* Release */,
->>>>>>> Stashed changes:Algorithmique-Programmation-UTC302/Hello Word.xcodeproj/project.pbxproj
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
