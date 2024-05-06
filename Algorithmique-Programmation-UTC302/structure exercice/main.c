@@ -27,7 +27,7 @@ int main(void) {
     //gets(FR1.prix);
     
     printf("La provenance : ");
-    scanf("%s", &FR1.provenance);
+    scanf("%s",FR1.provenance);
     //gets(FR1.provenance);
     
     FR2 =FR3;

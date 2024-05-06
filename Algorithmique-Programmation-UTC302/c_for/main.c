@@ -6,7 +6,8 @@
 //
 
 #include <stdio.h>
-# include<string.h>
+#include<string.h> // librairie pour 'strlen'
+#include<ctype.h> // librairie pour 'toupper'
 
 int main(void)
 {
@@ -27,10 +28,11 @@ int main(void)
           space++;
       }
       if ( line[i] == '\t' )
-      {
+      { 
           tab++;
       }
-       if ( line[i] == 'e' )
+       if (tolower(line[i]) == 'e' )  // fonction pour convertir les majuscules en minuscule (sinon toloper)
+
        {
            ret++;
        }

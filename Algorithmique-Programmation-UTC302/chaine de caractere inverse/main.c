@@ -10,8 +10,8 @@
 
 void inversion(char *p_str_1)
 {
-    int long_str = strlen(p_str_1);
-    int cpt = long_str / 2 ; // on divise par deux la longueur de la chaine
+    unsigned long long_str = strlen(p_str_1);  // Fonction strlen qui retourne un unsigned long
+    unsigned long  cpt = long_str / 2 ; // on divise par deux la longueur de la chaine
     char *p_str_2 = p_str_1 + long_str -1 ; // init sur la fin de chaine
     char tmp;
     while(cpt > 0)
