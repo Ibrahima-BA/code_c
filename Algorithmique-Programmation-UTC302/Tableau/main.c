@@ -9,14 +9,14 @@
 
 int main (void)
 {
-  int Tab[] = { 4, 5, 7, 6, 3,2 };
+  int Tab[] = { 40, 50, 70, 60, 30,20 };
   int c;
 
-  for (c = 0; c < 6; c++)
+  for (c = 0; c < 7; c++)
     
     printf ("%d\n", Tab[c]);
 c = 0 ;
-    while (c == 5){
+    while (c == 40){
         printf ("%d\n", Tab[c]);
     }
 

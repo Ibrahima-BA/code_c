@@ -15,9 +15,12 @@ int main (void)
 
   switch (n)
     {
-    case 'a' & 'A':
+    case 'a':
       printf ("1ére lettre de l'alphabet\n ");
      break;
+        case 'A':
+          printf ("1ére lettre de l'alphabet\n ");
+         break;
     case 'b' & 'B':
      printf (" 2ème lettre de l'alphabet\n ");
       break;
@@ -48,6 +51,7 @@ int main (void)
     default:
     printf ("\n");
     printf (" Lettre trop grande\n");
+    return main();
     }
   printf ("Fin du programme\n ");
     return 0;

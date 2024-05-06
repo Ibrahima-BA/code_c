@@ -12,7 +12,7 @@ int main (void)
   int n;
   printf ("Veuillez saisir un entier : ");
   scanf ("%d", &n);
-
+    
   switch (n)
     {
     case 0:
@@ -49,8 +49,10 @@ int main (void)
      printf (" Dix\n");
     break;
     default:
+    //printf ("\n");
+    printf ("L'entier est trop grand\n");
     printf ("\n");
-    printf (" Trop grand\n");
     }
-  printf ("Fin du programme\n ");
+    if (n>= 11)
+    return main();
 }
