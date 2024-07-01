@@ -15,6 +15,7 @@
         
     };
 typedef struct point point;
+
 int main(void) {
     point FR1, FR2,FR3 = {11, 12.3, "Sénégal"};
     

@@ -9,12 +9,12 @@
 
 int main(void) {
     int * n;
-    int c;
-    n = 0;
-    printf("Hello, World! N = %d \n",n);
-    c = 10;
-    n =& c;
-    printf("Hello, World! N en = %s \n",n);
+    int c = 10;
+    n = &c; // Assign the address of 'c' to 'n'
+    
+    printf("Hello, World! N = %d \n",*n);
+    c = 11;
+    printf("Hello, World! N en = %d\n",*n);
     return 0;
 }
 

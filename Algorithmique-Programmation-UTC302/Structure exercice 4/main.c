@@ -2,13 +2,24 @@
 //  main.c
 //  Structure exercice 4
 //
-//  Created by Ibrahima Ba on 06/05/2024.
-//
+//  Created by Ibrahima KONE on 06/05/2024.
+
+//1 - Afficher la liste
+
+//2 - Ajouter un élément
+//    2-1 A la fin de la liste
+//    2-2 Au début de la liste
+//    2-3 A une position donnée
+
+// 3- Supprimer un élément
+//     3-1 Le premier (FIFO)
+//     3-2 Le dernier (LIFO)
+//     3-3 Un élément spécifique
 
 #include <stdio.h>
 #include <stdlib.h>
 
-enum Couleur { PIQUE, TREFLE, CARRO, COEUR };
+enum Couleur { PIQUE, TREFLE, CARREAU, COEUR };
 
 struct Carte {
     int valeur;
@@ -80,7 +91,7 @@ void AfficherListe(struct Carte *tete) {
         switch (curseur->couleur) {
             case PIQUE: printf("Pique"); break;
             case TREFLE: printf("Trèfle"); break;
-            case CARRO: printf("Carreau"); break;
+            case CARREAU: printf("Carreau"); break;
             case COEUR: printf("Coeur"); break;
         }
         if (curseur->p_suivant != NULL) {
@@ -97,21 +108,23 @@ int main(void) {
     // Ajout de cartes
     AjouterDebut(&p_tete, CreerCarte(10, PIQUE));
     AjouterDebut(&p_tete, CreerCarte(3, COEUR));
-    AjouterFin(&p_tete, CreerCarte(7, CARRO));
+    AjouterFin(&p_tete, CreerCarte(7, CARREAU));
     AjouterFin(&p_tete, CreerCarte(4, TREFLE));
 
-    printf("Liste après ajout de cartes :\n");
+    printf("Liste après ajout de carte :\n");
     AfficherListe(p_tete);
-
+    printf("\n");
     // Suppression de la dernière carte
     SupprimerDernier(&p_tete);
     printf("Liste après suppression de la dernière carte :\n");
     AfficherListe(p_tete);
-
+    printf("\n");
+    
     // Suppression d'une carte spécifique
     SupprimerCarte(&p_tete, 3, COEUR);
     printf("Liste après suppression de la carte 3 de Coeur :\n");
     AfficherListe(p_tete);
-
+    printf("\n");
+    
     return 0;
 }

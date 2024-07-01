@@ -10,23 +10,34 @@
 int main (void)
 {
   char n;
+  printf ("Veuillez saisir une lettre : ");
+  scanf (" %c", &n);
     
-    
-void convert_hex
-    
-    switch(n )
+    switch(n)
     {
         case 'a' :
+            printf ("10\n");
+           break;
         case 'b' :
+            printf ("11\n");
+           break;
         case 'c' :
+            printf ("12\n");
+           break;
         case 'd' :
+            printf ("13\n");
+           break;
         case 'e' :
-        case 'f' :  ;
-        //case 'f' :  convert_hex(n);
-    default:
-    printf ("\n");
-    printf (" Lettre trop grande\n");
-    }
-  printf ("Fin du programme\n ");
+            printf ("14\n ");
+           break;
+        case 'f':
+            printf ("15\n");
+           break;
+        default:
+        printf ("Lettre trop grande !\n");
+            printf ("\n");
+        return main();
+        }
+      printf ("Fin du programme\n ");
     return 0;
 }

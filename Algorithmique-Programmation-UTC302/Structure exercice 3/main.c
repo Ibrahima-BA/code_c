@@ -6,9 +6,9 @@
 //
 
 #include <stdio.h>
-#include <stdlib.h> // Librairie pour l'utilisation de "malloc" et
+#include <stdlib.h> // Librairie pour l'utilisation de "malloc" et "free"
 
-enum Couleur{PIQUE, TREFLE, CARRO, COEUR};
+enum Couleur{PIQUE, TREFLE, CARREAU, COEUR};
 
 struct Carte
 {
@@ -35,14 +35,14 @@ void AfficheListe(struct Carte* curseur) {
             printf("Pique");
         } else if(curseur->couleur == TREFLE){
             printf("Trefle");
-        } else if(curseur->couleur == CARRO){
+        } else if(curseur->couleur == CARREAU){
             printf("Carreau");
         } else {
             printf("Coeur");
         }
         
         if (curseur->p_suivant != NULL) {
-            printf(" > ");
+            printf(" -> ");
         }
         curseur = curseur->p_suivant;
     }
@@ -55,10 +55,15 @@ int main(void)
     
     p_tete = CreerCarte(2, COEUR);
     p_tete->p_suivant = CreerCarte(4, TREFLE);
-    p_tete->p_suivant->p_suivant = CreerCarte(7, CARRO);
+    p_tete->p_suivant->p_suivant = CreerCarte(7, CARREAU);
     p_tete->p_suivant->p_suivant->p_suivant = CreerCarte(10, PIQUE);
     p_tete->p_suivant->p_suivant->p_suivant->p_suivant = CreerCarte(3, COEUR);
-    p_tete->p_suivant->p_suivant = p_tete->p_suivant->p_suivant->p_suivant;
+    p_tete->p_suivant->p_suivant = p_tete->p_suivant->p_suivant->p_suivant; //pour sauter la carte 7, CARREAU
     AfficheListe(p_tete);
+    free(p_tete); //utilisation de la fonction "free" pour libérer l'emplacement mémoire
+    p_tete = CreerCarte(1, COEUR);
+    printf("\n");
+    AfficheListe(p_tete);
+    printf("\n");
     return 0;
 }
