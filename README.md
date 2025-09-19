@@ -3,6 +3,7 @@
 ```markdown
 Projet dédié à la programmation en C vu en cours UTC302 au CNAM à Toulouse.
 ```
+##Table des matiéres
 
 - [**Programmation en C\[^1\] du cours au CNAM UTC302\[^2\]**](#programmation-en-c1-du-cours-au-cnam-utc3022)
   - [1. Apprentissage du code c](#1-apprentissage-du-code-c)
