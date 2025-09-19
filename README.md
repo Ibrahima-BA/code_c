@@ -30,8 +30,7 @@ Lorsque de nouveaux éléments sont créés dynamiquement en utilisant `malloc` 
 
 ### [Lien vers la Library stdio.h](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm)
 
-### [Lien vers le dossiers de travail] 
-(https://github.com/Ibrahima-BA/code_c/tree/main/Algorithmique-Programmation-UTC302)
+### [Lien vers le dossiers de travail](https://github.com/Ibrahima-BA/code_c/tree/main/Algorithmique-Programmation-UTC302)
 
 [^1]: C, est un laguage de communication informatique.
 [^2]: **UTC302**, est un cours qui est donnée au **CNAM**, permettant l'obtention d'une certification RNTCP, niveau 7.
