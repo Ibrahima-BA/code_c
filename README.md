@@ -10,6 +10,7 @@ Projet dédié à la programmation en C vu en cours UTC302 au CNAM à Toulouse.
   - [3. Ajouter ou Supprimer des Éléments](#3-ajouter-ou-supprimer-des-éléments)
   - [4. Allocation Dynamique de Mémoire](#4-allocation-dynamique-de-mémoire)
     - [Lien vers la Library stdio.h](#lien-vers-la-library-stdioh)
+    - [Lien vers le dossiers de travail](https://github.com/Ibrahima-BA/code_c/tree/main/Algorithmique-Programmation-UTC302)
 
 
 ## 1. Apprentissage du code c
@@ -29,7 +30,8 @@ Lorsque de nouveaux éléments sont créés dynamiquement en utilisant `malloc` 
 
 ### [Lien vers la Library stdio.h](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm)
 
-
+### [Lien vers le dossiers de travail] 
+(https://github.com/Ibrahima-BA/code_c/tree/main/Algorithmique-Programmation-UTC302)
 
 [^1]: C, est un laguage de communication informatique.
 [^2]: **UTC302**, est un cours qui est donnée au **CNAM**, permettant l'obtention d'une certification RNTCP, niveau 7.
